@@ -14,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "heroku-postbuild": "yarn install --only=dev && yarn install && yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +33,5 @@
     "eslint-plugin-react": "^7.11.1",
     "prettier": "1.14.3"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "https://expressokki.herokuapp.com"
 }

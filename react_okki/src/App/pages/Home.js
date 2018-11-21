@@ -11,7 +11,6 @@ class Home extends Component {
         <button variant="raised">
             My List
         </button>
-        <p>Hello</p>
       </Link>
     </div>
     );
