@@ -15,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/",
-    "heroku-postbuild": "yarn install --only=dev && yarn install && yarn run build"
+    "heroku-postbuild": "yarn install && yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
